@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="vonat.css">
+    <title>Vonatok menetrendje</title>
+</head>
+<body>
+    <div id="tartalom">
+        <div id="cim">
+            <h1>Budapest - Szeged vasútvonal 2021.01.13-ai vonat információk</h1>
+            <h2>Információ vonat azonosítók alapján</h2>
+        </div>
+        <div id="szoveg">
+            <div id="urlap">
+                <form id="vonatKivalasztas">
+                    <div id="vonatlista">
+                        <label for="vonatId">Válassz egy vonatot</label>
+                        <select id="vonat" name="vonat">
+                            <option value="0">Napfény Express</option>
+                            <option value="1">Tisza IC</option>
+                            <option value="2">Pick IC</option>
+                        </select>
+                    </div>
+                    <button type="submit" name="vonatok" class="btn btn-primary">Az adott vonat lekérdezése</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

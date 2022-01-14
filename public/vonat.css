@@ -1,0 +1,23 @@
+body {
+    background-color: azure;
+    color: navy;
+}
+
+#tartalom{
+    margin: 5px auto 15px auto;
+    width: 800px;
+    background-color:antiquewhite;
+    padding: 5px;
+}
+
+#cim{
+    color: crimson;
+}
+
+#urlap{
+    margin: 5px;
+}
+
+#vonatlista{
+    padding: 5px;
+}
