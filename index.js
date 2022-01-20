@@ -1,7 +1,6 @@
 const express = require('express')
 const dbData=require('./dbModule/dbMuveletek.js')
 const path = require('path');
-const { isBuffer } = require('util');
 const port = 4444;
 
 const app =express();
